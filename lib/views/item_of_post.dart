@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:pattern_provider/view_model/HomeViewModel.dart';
+import 'package:pattern_provider/view_model/home_view_model.dart';
 
 Widget itemOfPosts(HomeViewModel viewModel, int index, BuildContext context) {
   return Card(

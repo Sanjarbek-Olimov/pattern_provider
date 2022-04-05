@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pattern_provider/view_model/HomeViewModel.dart';
+import 'package:pattern_provider/view_model/home_view_model.dart';
 import 'package:pattern_provider/views/item_of_post.dart';
 import 'package:provider/provider.dart';
 
@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("set State"),
+        title: const Text("Provider"),
         centerTitle: true,
       ),
       body: ChangeNotifierProvider(
